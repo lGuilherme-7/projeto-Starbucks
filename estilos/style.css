@@ -27,9 +27,7 @@
  }
 
 
- a , .btnMobile , .btnDefault { 
-    text-decoration: none;
-}
+
 
 .btnMobile{ 
     padding: 10px 20px;
@@ -53,6 +51,16 @@
 .btnDefault:hover { 
     background-color: var(--cor-primaria-2);
 }
+
+.btncontrarar { 
+    background-color: transparent;
+    color: var(--cor-primaria-1);
+    border: 2px solid var(--cor-primaria-1);
+}
+
+.btncontrarar:hover { 
+    background-color: var(--cor-primaria-1);
+}  
 
 header { 
     background: var(--cor-neutra-1);
@@ -112,4 +120,59 @@ a:hover {
 
 a.btn { 
     text-decoration: none;
+}
+
+
+/* MAIN*/
+
+#container {
+    background-image: url(../images/background-mobile.png);
+    background-size: contain;
+    height: 400vh;
+}
+
+#home { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+    gap: 12px;
+    min-height: calc(100vh - 96px);
+    padding-top: clamp(0px, 5vw, 32px);
+    text-align: center;
+    color: #000000;
+
+}
+
+.homeimg { 
+    width: clamp(300px, 50%,400px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hometitle {
+    color: var(--cor-neutra-8);
+    text-align: center;
+    font-size: clamp(3rem, 5vw, 4.3rem);
+    text-transform: uppercase;
+    line-height: 1.2;
+    max-width: 700px;
+}
+
+span { 
+    color: var(--cor-primaria-1);
+}
+
+.homedescri { 
+    color: var(--cor-neutra-8);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    max-width: 600px;
+}
+
+.homeactions {
+    display: flex;
+    gap: 12px;
+    margin-top: 12px;
 }

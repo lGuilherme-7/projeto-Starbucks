@@ -12,7 +12,9 @@
         padding: 0;
     }
 
-    header .navbar .btnDefault {
+    .btnDefault {
         display: block;
     }
+
+
 }
