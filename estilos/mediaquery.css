@@ -16,5 +16,75 @@
         display: block;
     }
 
+    #conteiner {
+        background-image: url('../images/background-desktop.png');
+        background-size: cover;
+        height: 100vh;
+        background-position: start;
+        background-repeat: no-repeat;
+    
+    }
 
+
+    #emalta .emaltacards {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+
+    #produtos {
+        min-height: 100vh;
+        gap: 8rem;
+    }
+
+    .produtocards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 24px;
+    }
+
+    .produtocard img {
+        width: 250px; 
+
+    }
+
+    #container {
+        background-image: url(../images/background-desktop.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: auto;
+    }
+
+    }
+
+
+@media (min-width: 1200px) {
+    #sobre { 
+        margin: 4%;
+        justify-content: center;
+    }
+
+    .sobreContent {
+        flex-direction: row;
+        align-items: center;
+        gap: 48px ; 
+    }
+
+    .sobreimg { 
+        order: 1;
+    }
+
+    .sobreinfo:first-child { 
+        order: 2;
+    }
+
+    .sobreinfo:last-child { 
+        order: 3;
+    }
+    
 }

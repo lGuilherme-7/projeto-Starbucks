@@ -15,3 +15,17 @@ btnMobile.addEventListener('click', () => {
     icon.classList.add('fa-bars');
   }
 });
+
+window.addEventListener('scroll', () => {
+
+    const header = document .getElementById('header')
+
+    if (window.scrollY > 0) {
+      header.style.boxShadow ='0 4px 10px rgba(0,0,0,0.2)'
+    }
+
+    else {
+      header.style.boxShadow = 'none'
+    
+    }
+})

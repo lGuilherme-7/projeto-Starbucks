@@ -128,7 +128,6 @@ a.btn {
 #container {
     background-image: url(../images/background-mobile.png);
     background-size: contain;
-    height: 400vh;
 }
 
 #home { 
@@ -159,6 +158,25 @@ a.btn {
     max-width: 700px;
 }
 
+.title { 
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: var(--cor-neutra-8);
+    font-weight: 700;
+    position: relative;
+
+    &::before { 
+        content: '';
+       display: block;
+       width: 90px;
+       height: 6px;
+       background-color: var(--cor-primaria-1);
+       position: absolute;
+       bottom: 0;
+       border-radius: 10px;
+     }
+}
+
 span { 
     color: var(--cor-primaria-1);
 }
@@ -176,3 +194,202 @@ span {
     gap: 12px;
     margin-top: 12px;
 }
+
+
+/* em alta*/
+
+#emalta { 
+    padding: 32px 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+
+.emaltacards {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+    align-items: center;
+}
+
+/* Cada card */
+.emaltacard {
+    position: relative;
+    text-align: center;
+}
+
+/* Imagens corrigidas */
+.emaltacard img {
+    width: clamp(250px, 60vw, 350px);
+    display: block;
+    margin: 0 auto;
+}
+
+/* Caixa da nota */
+.emaltaava {
+    background-color: var(--cor-neutra-0);
+    position: absolute;
+    bottom: 70px;
+    right: 30px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Ícone estrela */
+.emaltaava i {
+    color: var(--cor-secundaria-1);
+}
+
+/* Descrição */
+
+
+.avadescri {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--cor-neutra-8);
+    margin-top: 10px;
+}
+
+/* Subtítulo */
+.avadescri span {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--cor-neutra-7);
+}
+
+
+/*SOBRE */
+
+#sobre { 
+    padding: 32px 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--cor-primaria-1);
+    background-image: url('../images/about/bg-about.png');
+    min-height: calc(100vh - 96%);
+    box-shadow: 0 4px 6px rgba(0,0,00,0.2);
+    border-radius: 32px;
+}
+
+#sobre .title {
+    color: var(--cor-neutra-0);
+
+    &::before {
+        background-color: var(--cor-secundaria-1);
+    }
+}
+
+.sobreContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;;
+}
+
+.sobreimg {
+    width: clamp(350px, 50vw, 500px);
+} 
+
+.sobreinfo {
+    padding: 24px;
+    border-radius: 20px;
+    background-color: var(--cor-primaria-2);
+    box-shadow: 0 4px 6px rgba(0 , 0 ,0 ,0.1);
+}
+
+.sobreinfo h3 {
+    color: var(--cor-neutra-0);
+    font-size: 1.8rem;
+    margin-bottom: 4px;
+}
+
+.sobreinfo span {
+    color: var(--cor-secundaria-1);
+}
+
+.sobreinfo p {
+    color: var(--cor-neutra-0);
+    font-size: 1rem;
+    font-weight: 500;
+    
+}
+/* PORDUTOS */
+
+.title {
+    color: var(--cor-neutra-0);
+
+}
+#produtos {
+    padding: 48px 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+
+.produtocards {
+    display: flex;
+    flex-direction: column;
+    gap: 58px;
+
+}
+
+.produtocard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-primaria-1);
+    background-image: url('../images/products/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 16px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.produtocard img {
+    width: 300px;
+    position: relative;
+    top: -70px;
+    filter: drop-shadow(2px 4px 6px rgba(0,0,0,0.2));
+
+}
+
+.produtocontent {
+    margin-top: -70px;
+} 
+
+.produtocontent h3 {
+    text-align: center;
+    color: var(--cor-neutra-0);
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.produtocontent h3 span {
+    color: var(--cor-secundaria-1);
+    font-size: 1.2rem;
+}
+
+footer { 
+    background-color: var(--cor-primaria-1);
+    color: var(--cor-neutra-0);
+    text-align: center;
+    padding: 12px;
+}
+
+footer p {
+    font-size: 1rem;
+    font-weight: 500
+}
+
