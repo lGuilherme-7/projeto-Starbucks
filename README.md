@@ -98,6 +98,3 @@ Para mim, achei o seu projeto **muito bem feito para portfólio**! Aqui estão o
 - Adicionar funcionalidade extra: mesmo uma simulação de pedido, ou filtro de menu, vai enriquecer bastante e mostrar que você vai além do estático.  
 - Trabalhar mais a identidade visual: definir tipografia, espaçamentos, consistência de cores, para que pareça um site pronto profissionalmente e não apenas um exercício.  
 - Garantir acessibilidade e performance: otimizar imagens, garantir carregamento rápido, alt nas imagens, navegabilidade por teclado, etc.
-
-Se você quiser, posso também gerar uma **versão avançada do README** com badges (ex: build, license, GitHub Pages link), captura de tela (screenshots) do seu site, e até texto para colocar no seu portfólio — quer que eu faça isso?
-::contentReference[oaicite:1]{index=1}
