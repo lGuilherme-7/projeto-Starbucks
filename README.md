@@ -2,6 +2,8 @@
 
 Bem-vindo ao **Projeto Starbucks**, desenvolvido por Guilherme L.!
 
+link para o site: https://lguilherme-7.github.io/projeto-Starbucks/
+
 ## Descrição
 
 Este é um site inspirado na marca Starbucks, criado para fins de portfolio e aprendizagem. O objetivo é replicar (ou reinterpretar) a aparência de uma página moderna de café, com foco em design, responsividade e experiência de usuário. ( créditos para a Larissa Kich!!!)
